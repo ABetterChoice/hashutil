@@ -9,8 +9,8 @@ import (
 )
 
 //GetBucketNum 获取 bucket num
-func GetBucketNum(hashMethod protoc_cache_server.HashMethod, source string, seed uint64, bucketSize int64) int64 {
-	return int64(GetHashNum(hashMethod, source, seed))%bucketSize + 1
+func GetBucketNum(hashMethod protoc_cache_server.HashMethod, source string, seed int64, bucketSize int64) int64 {
+	return int64(GetHashNum(hashMethod, source, uint64(seed)))%bucketSize + 1
 }
 
 // GetHashNum 获取 hash 值
