@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-//GetBucketNum 获取 bucket num
+//GetBucketNum 获取 bucket num，返回 [1, bucketSize] 区间范围的数字
 func GetBucketNum(hashMethod protoc_cache_server.HashMethod, source string, seed int64, bucketSize int64) int64 {
 	return int64(GetHashNum(hashMethod, source, uint64(seed)))%bucketSize + 1
 }
