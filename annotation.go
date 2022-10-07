@@ -1,3 +1,7 @@
+package hashutil
+
+/*
+
 // Package hashutil ...
 package hashutil
 
@@ -8,7 +12,7 @@ import (
 	"strings"
 )
 
-//GetBucketNum 获取 bucket num，返回 [1, bucketSize] 区间范围的数字
+//GetBucketNum 获取 bucket num
 func GetBucketNum(hashMethod protoc_cache_server.HashMethod, source string, seed int64, bucketSize int64) int64 {
 	return int64(GetHashNum(hashMethod, source, uint64(seed)))%bucketSize + 1
 }
@@ -128,3 +132,5 @@ func NewMD5(source string) uint64 {
 	cipherStr := h.Sum(nil)
 	return uint64(New(strings.ToUpper(hex.EncodeToString(cipherStr)))) // md5情况
 }
+
+*/
