@@ -4,7 +4,7 @@ package hashutil
 import (
 	"crypto/md5"
 	"encoding/hex"
-	"git.code.oa.com/tencent_abtest/protocol/protoc_cache_server"
+	"git.woa.com/tencent_abtest/protocol/protoc_cache_server"
 	"strings"
 )
 
