@@ -4,7 +4,7 @@ go 1.17
 
 require (
 	git.woa.com/tencent_abtest/protocol/protoc_cache_server v0.1.2-0.20230103122838-3178dac6f625
-	github.com/google/uuid v1.1.2
+	github.com/google/uuid v1.3.0
 )
 
 require (
