@@ -2,9 +2,10 @@
 package hashutil
 
 import (
-	"git.woa.com/tencent_abtest/protocol/protoc_cache_server"
-	"github.com/google/uuid"
 	"testing"
+
+	"git.tencent.com/abetterchoice/protocol/protoc_cache_server"
+	"github.com/google/uuid"
 )
 
 func TestGetBucketNum(t *testing.T) {

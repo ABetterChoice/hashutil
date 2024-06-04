@@ -3,7 +3,7 @@ module git.code.oa.com/tencent_abtest/open-source/hashutil
 go 1.17
 
 require (
-	git.woa.com/tencent_abtest/protocol/protoc_cache_server v0.1.2-0.20230103122838-3178dac6f625
+	git.tencent.com/abetterchoice/protocol/protoc_cache_server v0.0.0-20240604073730-89430b62bd31
 	github.com/google/uuid v1.3.0
 )
 
