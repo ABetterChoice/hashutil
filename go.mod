@@ -1,4 +1,4 @@
-module git.code.oa.com/tencent_abtest/open-source/hashutil
+module git.tencent.com/abetterchoice/hashutil
 
 go 1.17
 
