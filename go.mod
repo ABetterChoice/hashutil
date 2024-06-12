@@ -1,9 +1,9 @@
-module git.tencent.com/abetterchoice/hashutil
+module github.com/abetterchoice/hashutil
 
 go 1.17
 
 require (
-	git.tencent.com/abetterchoice/protocol/protoc_cache_server v0.0.0-20240604073730-89430b62bd31
+	github.com/abetterchoice/protoc_cache_server v0.0.0-20240612070707-95d054d41d52
 	github.com/google/uuid v1.3.0
 )
 

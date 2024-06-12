@@ -4,7 +4,7 @@ package hashutil
 import (
 	"testing"
 
-	"git.tencent.com/abetterchoice/protocol/protoc_cache_server"
+	"github.com/abetterchoice/protoc_cache_server"
 	"github.com/google/uuid"
 )
 

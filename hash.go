@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"git.tencent.com/abetterchoice/protocol/protoc_cache_server"
+	"github.com/abetterchoice/protoc_cache_server"
 )
 
 // GetBucketNum 获取 bucket num，返回 [1, bucketSize] 区间范围的数字
